@@ -615,7 +615,7 @@ export default {
       if (this.oneFilm.poster) {
         return this.imageOriginalUrl + this.oneFilm.poster;
       } else {
-        return "/dist/header-bg.jpg";
+        return "./dist/header-bg.jpg";
       }
     }
   }
