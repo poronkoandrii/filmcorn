@@ -609,15 +609,6 @@ export default {
   },
   beforeDestroy: function() {
     document.removeEventListener("keydown", this.showHideVideoo);
-  },
-  computed: {
-    getUrl: function() {
-      if (this.oneFilm.poster) {
-        return this.imageOriginalUrl + this.oneFilm.poster;
-      } else {
-        return "./dist/header-bg.jpg";
-      }
-    }
   }
 };
 </script>
