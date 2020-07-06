@@ -4,7 +4,7 @@
       class="header"
       id="info"
       :style="{
-        'background-image': 'url(' + getUrl + ')'
+        'background-image': 'url(' + this.imageOriginalUrl + this.oneFilm.poster + ')'
       }"
     >
       <div class="mainer">
