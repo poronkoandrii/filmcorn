@@ -9,7 +9,7 @@
     >
       <div class="mainer">
         <div class="header__auto">
-          <a href="/" class="header__auto-logo">
+          <a href="#" class="header__auto-logo">
             <b>film</b>corn
           </a>
           <div class="header__auto-log">
